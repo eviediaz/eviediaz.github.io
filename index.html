@@ -6,50 +6,533 @@
     <meta name="description" content="Está es una página de mi biografía">
     <meta name="keywords" content="Evie, Nataly, Díaz, Quevedo, Diaz, diaz, evie, nataly, quevedo, biografía" >
     <meta name="autor" content="Evie Nataly Diaz Quevedo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Evie Nataly Díaz Quevedo</title>
-    <style> li{
-        margin: 10px;
-    } </style>
 </head>
+
 <body>
-    <h1>Está es mi página: borrador aún, mi nombre es Evie Nataly Díaz Quevedo</h1>
-    <h2>Links de mis compañeros:</h2>
-    <ol>
-        <li> <a href="https://angello5.github.io/Angello-Marcelo-Llerena-Gomez/"> Angello Marcelo Llerena Gomez</a></li>
-        <li> <a href="https://fundacionbj.000webhostapp.com/"> Adrián Lozano</a></li>
-        <li> <a href="https://record-dishes.000webhostapp.com/"> Rogger Yañez</a></li>
-        <li> <a href="http://italoacostabonija.me/italoacosta.github.io/"> Italo Acosta Bonija</a></li>
-        <li> <a href="https://www.enmamilagroscondormedina.me/"> Enma Condor Medina</a></li>
-        <li> <a href="https://parislorenzo.github.io/"> Paris Lorenzo</a></li>
-        <li> <a href="https://airton-mendoza.github.io/airtonmendoza/"> Airton Mendoza</a></li>
-        <li> <a href="https://mosaic-circuitries.000webhostapp.com/"> Cinthia Ochoa Torre</a></li>
-        <li> <a href="https://alexanderdp345.github.io/KEVIN-ALEXANDER-DURAND-PIZARRO/ "> Kevin Durand Pizarro</a></li>
-        <li> <a href="https://anderson22campos.github.io/Blog-Personal/"> Anderson Campos</a></li>
-        <li> <a href="https://joseoviedoar.github.io/github.io/"> José Oviedo</a></li>
-        <li> <a href="https://danielatorres14.github.io/"> Daniela Torres</a></li>
-        <li> <a href="https://rocac.github.io/"> Roberto Nuñez</a></li>
-        <li> <a href="http://sebastianmoralescardoso.me/"> Sebastián Morales</a></li>
-        <li> <a href="https://biancagonzalesrequejo.github.io/BiancaGonzalesRequejoDayanne/"> Bianca Gonzalez</a></li>
-        <li> <a href="https://www.fabianimanolojedavalero.me/"> Fabián Manolo</a></li>
-        <li> <a href="https://kevinrobertyanezagurto.me/"> Kevin Yañez</a></li>
-        <li> <a href="https://practical-franklin-d0e378.netlify.app/"> Laleska Arroyo</a></li>
-        <li> <a href="https://juandediosalvarez.me/"> Juan de Dios Alvarez</a></li>
-        <li> <a href="https://mateobernabehuarcayamelgarejo.me/"> Mateo Bernabe</a></li>
-        <li> <a href="https://andreaabigailcuevasvasquez00.000webhostapp.com/index.html"> Andrea Cuevas</a></li>
-        <li> <a href="https://angiemichellemontoyarocca.github.io/"> Angie Montoya</a></li>
-        <li> <a href="https://www.brayanelmercampossanchez.me/ "> Brayan Campos</a></li>
-        <li> <a href="https://www.jesusalonsosalazarmallqui.me/"> Jesús Salazar</a></li>
-        <li> <a href="http://ricardocoriatole.byethost6.com/?i=1#sec3"> Ricardo Coria</a></li>
-        <li> <a href="https://www.diegoalonsomiguelortegaaquino.me/"> Diego Ortega</a></li>
-        <li> <a href="https://claudiafernandarejasruiz.me/"> Claudia Rejas</a></li>
-        <li> <a href="https://wolfzerov.github.io/WolfZero.github.io/"> Franco Villalobos</a></li>
-        <li> <a href="http://www.danielquichepalacios.com/"> Daniel Quiche</a></li>
-        <li> <a href="https://jobasi128.github.io/"> Jonathan Barzola</a></li>
-        <li> <a href="http://adrianpinado.me/"> Adrián Pinado</a></li>
-        <li> <a href="https://king-pacaya.github.io/"> King Pacaya</a></li>
-        <li> <a href="https://gabrielalvarado.me/"> Gabriel Alvarado</a></li>
-        <li> <a href="https://skeletus.github.io/">Jesús Arias</a></li>
-        <li> <a href="https://lmiaul.github.io/Mauricio-Fabian-Sandoval-Arrieta/">Mauricio Sandoval</a></li>
-    </ol>
+    <nav class="navbar navbar-expand-lg" id=nav>
+        <div class="container">
+          <div class="main-header" style="width: 300px;">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"> 
+                <a id="nav-text" class="nav-link" href="#presentation">Presentación</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-text" class="nav-link" href="#like">Gustos</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-text" class="nav-link" href="#links">Links</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-text" class="nav-link" href="#contact">Contacto</a>
+              </li>
+            </ul>                
+          </div>
+        </div>
+      </nav>    
+      
+      
+      <section id="first">
+          <div class="container-fluid">
+                <div class="row justify-content-center text-center align-items-center">
+                    <h1 id="f1">mi nombre es</h1>
+                    <h1 id="f2">Evie Díaz</h1>
+                </div>
+          </div>
+        </section>
+
+        <section id="presentation" class="padded">
+            <div class="container">
+              <div>
+                <h2 id="head">Presentación</h2>
+              </div>
+                <div class="row" id="r1">
+                    <div class="col-4">
+                        <p>Mi nombre completo es Evie Nataly Díaz Quevedo, tengo 17 años y me encuentro estudiando la carrera de Ingeniería de Sistemas de Información en la USIL.</p>
+                        <p>Con más detalle, nací el 11 de julio del 2003 y cuento con 2 hermanos: mi hermana gemela Lía que estudia Relaciones Intercionales en la USIL; y mi hermano André, quien estudia Estomatología en la UCSUR. Mis estudios iniciales, primarios  y secundarios los rendí en un mismo colegio: FAP José Quiñones.</p>
+                        <p>Por otro lado, este primer ciclo universitario me otorgó muchas lecciones y espero trabajar en ellas para el siguiente ciclo académico.</p>
+                    </div>
+                    <div class="col-8">
+                        <img class="img-fluid" src="images/me.gif" alt="Mi foto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="like" class="padded">
+            <div class="container">
+              <div>
+                <h2 id="head" style="color: rgb(246, 228, 208); text-shadow:  black 4px 4px;">Gustos</h2>
+              </div>
+                <div class="row">
+                    <div class="col">
+                        <h3 id="f3">series</h3>
+                        <div id="textt">
+                          <p>Generalmente, veo series de comedia. Entre las que he visto, mis favoritas son: Bojack Horseman, Rick and Morty, Community, Arrested Development, Parks and Recreation, The Office, Modern Family, Big Mouth, The Good Place y Two and a half men (en las primeras temporadas).</p>
+                          <p>Asimismo, en relación a series de otros géneros, me gustó Black Mirror, House of Cards, Anne with an E y Mind Hunter.</p>
+                        </div>
+                        <h3 id="f3">libros</h3>
+                        <div id="textt">
+                          <p>Entre los libros que he leído y los que me gustaría leer están: "1984", "Blanca Sol", "We Should All Be Feminists", "Alienación", "Perfume", "Frankenstein", "The Scarlet Letters", "Animal Farm", "City of Clowns" y "El perfil del lagarto".</p>
+                          <img src="images/moviemusic.png" alt="" class="img-fluid" style="padding: 35px 0px 0px;">
+                        </div>
+                    </div>
+                    <div class="col">
+                      <img src="images/booksandserie.png" alt="" class="img-fluid" style="padding: 0px 0px 30px;">
+                      <h3 id="f3">películas</h3>
+                      <div id="textt">
+                        <p>Gracias a mi hermana, quien también estudia cine, le he encontrado gusto a ver películas, pero solo las de su recomendación. Entre ellas: Inglourious Basterds, The Rocky Horror Picture Show, Taxi Driver, The Godfather, Parasite, Her, La La Land, Lady Bird, etc.</p>
+                      </div>
+                      <h3 id="f3">música</h3>
+                      <div id="textt">
+                        <p>No tengo un género específico que me capte, me gustan algunas canciones de Rock, Pop, Salsa, Bachata, Alternative, Jazz, Rap y Pop tradicional.</p>
+                        <p>Los artistas que más escucho son: Oasis, Olivia Rodrigo, RadioHead, Artic Monkeys, Bruno Mars, Eddie Santiago, Juan Luis Guerra, DLG, The Cure, Taylor Swift, Keane, Billy Joel, etc.</p>
+                        <p>Pueden ver mi selección de canciones favoritas <a href="https://open.spotify.com/playlist/26lt591eHTGLXGXdgqwtwf?si=134638756bf44851">aquí</a></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="links" class="padded">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-9">
+                        <h2 id="head2">Links de mis compañeros</h2>
+                        <table class="table table-dark table-striped table-hover">
+                            <thead>
+                              <tr>
+                                <th id="th1" scope="col">#</th>
+                                <th id="th1" scope="col">Nombre</th>
+                                <th id="th1" scope="col">Apellido</th>
+                                <th id="th1" scope="col">Carrera</th>
+                                <th id="th1" scope="col">Enlace</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th id="th2" scope="row">1</th>
+                                <td>Adrián</td>
+                                <td>Lozano</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://fundacionbj.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">2</th>
+                                <td>Adrián</td>
+                                <td>Pinado</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="http://adrianpinado.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">3</th>
+                                <td>Airtron</td>
+                                <td>Mendoza</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://airton-mendoza.github.io/airtonmendoza/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">4</th>
+                                <td>Aldhair Stefano</td>
+                                <td>Ordonez Dos Santos</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://aldhair123.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">5</th>
+                                <td>Anderson</td>
+                                <td>Campos</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://anderson22campos.github.io/Blog-Personal/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">6</th>
+                                <td>Andrea</td>
+                                <td>Cuevas</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://andreaabigailcuevasvasquez00.000webhostapp.com"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">7</th>
+                                <td>Andy Rolando</td>
+                                <td>Morales Segura</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://andyrolandomoralessegura24.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">8</th>
+                                <td>Angello Marcelo</td>
+                                <td>Llerena Gomez</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://angello5.github.io/Angello-Marcelo-Llerena-Gomez/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">9</th>
+                                <td>Angie</td>
+                                <td>Montoya</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://angiemichellemontoyarocca.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">10</th>
+                                <td>Ariana</td>
+                                <td>Vargas Chirinos</td>
+                                <td>-</td>
+                                <td><a href="https://ariana1702.github.io/Ariana.Vargas.Chirinos/ "><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">11</th>
+                                <td>Axel Rodrigo</td>
+                                <td>Polick Uriol</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://axelpolick.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">12</th>
+                                <td>Bianca</td>
+                                <td>Gonzalez</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://biancagonzalesrequejo.github.io/BiancaGonzalesRequejoDayanne/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">13</th>
+                                <td>Billy Renzo</td>
+                                <td>Cornejo Condori</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://billrenzocornejocondori.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">14</th>
+                                <td>Brayan</td>
+                                <td>Campos</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://www.brayanelmercampossanchez.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">15</th>
+                                <td>Bruno Ismael</td>
+                                <td>Cuneo Polo</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://bruno-ismael-cuneo-polo.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">16</th>
+                                <td>Cinthia</td>
+                                <td>Ochoa Torre</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://mosaic-circuitries.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">17</th>
+                                <td>Claudia Andrea</td>
+                                <td>Campuzano Aguirre</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://claudiaandreacampuzanoaguirre.me"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">18</th>
+                                <td>Claudia</td>
+                                <td>Rejas</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://claudiafernandarejasruiz.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">19</th>
+                                <td>Daniel Sthefano</td>
+                                <td>Quiche Palacios</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="http://www.danielquichepalacios.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">20</th>
+                                <td>Daniel</td>
+                                <td>Quispe Ccorahua</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://danielquispe1x2.github.io/p-ginaweb/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">21</th>
+                                <td>Daniela</td>
+                                <td>Torres</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://danielatorres14.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">22</th>
+                                <td>Diego Alonso</td>
+                                <td>Ortega Aquino</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://www.diegoalonsomiguelortegaaquino.me"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">23</th>
+                                <td>Eduardo</td>
+                                <td>Bautisa</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://electroscopic-place.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">24</th>
+                                <td>Enma Milagros</td>
+                                <td>Condor Medina</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://enmamilagroscondormedina.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">25</th>
+                                <td>Fabián Manolo</td>
+                                <td>Ojeda Valero</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://www.fabianimanolojedavalero.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">26</th>
+                                <td>Franco</td>
+                                <td>Castillo Sanchez</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://francocastillosanchez.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">27</th>
+                                <td>Franco</td>
+                                <td>Villalobos Paucar</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://wolfzerov.github.io/WolfZero.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">28</th>
+                                <td>Gabriel</td>
+                                <td>Alvarado</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://gabrielalvarado.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">29</th>
+                                <td>Gabriel</td>
+                                <td>Corrales</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://gabrielcorrales.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">30</th>
+                                <td>Ismael</td>
+                                <td>Corpuna</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://toxicale.github.io/Ismael_Corpuna.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">31</th>
+                                <td>Jean Pierre</td>
+                                <td>Tello Lazaro</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://jean170603.github.io/Jean-Pierre-Tello-Lazaro/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">32</th>
+                                <td>Jesús</td>
+                                <td>Arias</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://skeletus.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">33</th>
+                                <td>Jesús</td>
+                                <td>Salazar</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://www.jesusalonsosalazarmallqui.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">34</th>
+                                <td>Jonathan</td>
+                                <td>Barzola</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://jobasi128.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">35</th>
+                                <td>José Miguel</td>
+                                <td>Tello Saaz</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://josetellosaaz.github.io/JoseMiguelTelloSaaz/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">36</th>
+                                <td>José</td>
+                                <td>Oviedo</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://josetellosaaz.github.io/JoseMiguelTelloSaaz/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">37</th>
+                                <td>Juan de Dios</td>
+                                <td>Alvarez</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://juandediosalvarez.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">38</th>
+                                <td>Kevin Alexander</td>
+                                <td>Durand Pizarro</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://alexanderdp345.github.io/KEVIN-ALEXANDER-DURAND-PIZARRO/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">39</th>
+                                <td>Kevin</td>
+                                <td>Yañez</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://kevinrobertyanezagurto.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">40</th>
+                                <td>King</td>
+                                <td>Pacaya</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://king-pacaya.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">41</th>
+                                <td>Laleska</td>
+                                <td>Arroyo</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://practical-franklin-d0e378.netlify.app/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">42</th>
+                                <td>Leonardo Antonio</td>
+                                <td>Seminario Campos</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://leonardo10950.github.io/Sitio-web/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">43</th>
+                                <td>Luis Angel</td>
+                                <td>Patiño Palomino</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://852456luis852456.github.io/luis-angel-/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">44</th>
+                                <td>Marcelo</td>
+                                <td>Castañeda</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://hulkie10.github.io/MarceloCastanedas/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">45</th>
+                                <td>Mateo Bernabe</td>
+                                <td>Huarcaya Melgarejo</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://mateobernabehuarcayamelgarejo.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">46</th>
+                                <td>Mauricio</td>
+                                <td>Sandoval</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://lmiaul.github.io/Mauricio-Fabian-Sandoval-Arrieta/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">47</th>
+                                <td>Nicolás Patricio</td>
+                                <td>Criado Nalvarte</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://nicolax07.github.io/NicolasPatricioCriadoNalvarte./"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">48</th>
+                                <td>Paolo Esteban</td>
+                                <td>Pomacaja Neyra</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://paolopomacaja01.github.io/Paolo.Esteban.Pomacaja.Neyra/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">49</th>
+                                <td>Paris</td>
+                                <td>Lorenzo</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://parislorenzo.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">50</th>
+                                <td>Ricardo</td>
+                                <td>Coria</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="http://ricardocoriatole.byethost6.com/?i=1#sec3"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">51</th>
+                                <td>Roberto</td>
+                                <td>Nuñez</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://rocac.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">52</th>
+                                <td>Rogger Yul</td>
+                                <td>Yañez Marchand</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="http://roggeryanez.me/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">53</th>
+                                <td>Salvador</td>
+                                <td>Delgado</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://salvadordelgado.000webhostapp.com/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">54</th>
+                                <td>Santiago David</td>
+                                <td>Gutiérrez Soria</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="http://evirtuales.com/SantiagoDavidGutierrezSoria.html"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">55</th>
+                                <td>Sebastián Martín</td>
+                                <td>Huaranca Lezcano</td>
+                                <td>Ingeniería de Software</td>
+                                <td><a href="https://sebastianhuarancalezcano.github.io/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                              <tr>
+                                <th id="th2" scope="row">56</th>
+                                <td>William</td>
+                                <td>Huisa Huallanca</td>
+                                <td>Ingeniería de Sistemas</td>
+                                <td><a href="https://willianhuisah.github.io/willian/"><i class="bi bi-person-circle"></i></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="padded">
+            <div class="container-fluid">
+                <div class="row justify-content-center" id="lr">
+                    <div class="col-9">
+                        <h2 id="head3">Contacto</h2>
+                        <p style="color: white; text-align: center;">Me pueden contactar en las siguientes redes sociales:</p>
+                        <a href="https://www.instagram.com/eviediaaz/"><i class="bi bi-instagram" id="icon"></i></a>
+                        <a href="https://www.facebook.com/evienathaly.diazquevedo"><i class="bi bi-facebook" id="icon"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
 </body>
 </html>

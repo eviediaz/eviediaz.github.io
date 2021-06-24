@@ -28,6 +28,9 @@
 }
 #nav{
     background-color: rgb(178, 130, 191);
+    display: block;
+    background-image: url(images/navback.gif);
+    background-size: cover;
 }
 #nav-text{
     font-size: 20px;

@@ -14,6 +14,10 @@
     background-color: rgb(178, 130, 191);
     background-image: url(images/background.gif);
     background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
 #f1{
     font-size: 70px;
@@ -31,6 +35,10 @@
     display: block;
     background-image: url(images/navback.gif);
     background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
 #nav-text{
     font-size: 20px;
@@ -42,7 +50,12 @@
     font-family: Recoleta;
     text-align: center;
     padding: 10px 0 25px;
-    background-image: url(images/carton.png);
+    background-image: url(images/carton1.png);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
     color: white;
     text-shadow: rgb(117, 68, 131) 4px 4px;
 }
@@ -76,7 +89,12 @@ p{
     font-family: Recoleta;
     text-align: center;
     padding: 15px 0 15px;
-    background-image: url(images/carton2.png);
+    background-image: url(images/carton22.png);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
     color: white;
     text-shadow: rgb(117, 68, 131) 4px 4px;
 }
@@ -85,7 +103,12 @@ p{
     font-family: Recoleta;
     text-align: center;
     padding: 20px 0 20px;
-    background-image: url(images/carton3.png);
+    background-image: url(images/carton33.png);
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
     color: rgb(246, 228, 208); 
     text-shadow:  black 4px 4px;
 }

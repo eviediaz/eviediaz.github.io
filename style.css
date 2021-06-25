@@ -6,8 +6,11 @@
     font-family: Lil Stuart;
     src: url(fonts/lil\ stuart\ alt.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@font-face {
+    font-family: TCM;
+    src: url(fonts/TCM.TTF);
+}
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 @media only screen and (min-width: 1200px) {
     /* styles for MacBook Pro-sized screens and larger */
@@ -61,7 +64,7 @@ p{
     font-size: 20px;
     text-align: justify;
     font-size: 1.3vw;
-
+    font-family: TCM;
 }
 .padded{
     padding: 50px 0 50px;
@@ -144,4 +147,5 @@ p{
 }
 td{
     font-size: 1.2vw;
+    font-family: TCM;
 }

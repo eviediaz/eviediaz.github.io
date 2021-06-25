@@ -12,15 +12,16 @@
 @media only screen and (min-width: 1200px) {
     /* styles for MacBook Pro-sized screens and larger */
 }
-#first{
-    padding: 70px 0 600px;
-    background-color: rgb(178, 130, 191);
-    background-image: url(images/background.gif);
+#up{
+    background-image: url(images/pbackground.gif);
     background-size: cover;
     background-position: center center;
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+}
+#first{
+    padding: 70px 0 600px;
 }
 #f1{
     font-size: 70px;
@@ -35,16 +36,7 @@
     color: white;
     text-shadow: rgb(116, 67, 21) 4px 4px;
 }
-#nav{
-    background-color: rgb(178, 130, 191);
-    display: block;
-    background-image: url(images/navback.gif);
-    background-size: cover;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
-}
+
 #nav-text{
     font-size: 20px;
     font-weight: 800;

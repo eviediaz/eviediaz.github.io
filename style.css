@@ -8,13 +8,16 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@media only screen and (min-width: 1200px) {
+    /* styles for MacBook Pro-sized screens and larger */
+}
 #first{
-    display: block;
     padding: 70px 0 600px;
     background-color: rgb(178, 130, 191);
     background-image: url(images/background.gif);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -22,10 +25,12 @@
 #f1{
     font-size: 70px;
     font-family: Recoleta;
+    font-size: 4.7vw;
 
 }
 #f2{
     font-size: 90px;
+    font-size: 5.8vw;
     font-family: Lil Stuart;
     color: white;
     text-shadow: rgb(116, 67, 21) 4px 4px;
@@ -47,6 +52,7 @@
 }
 #head{
     font-size: 48px;
+    font-size: 4vw;
     font-family: Recoleta;
     text-align: center;
     padding: 10px 0 25px;
@@ -62,6 +68,8 @@
 p{
     font-size: 20px;
     text-align: justify;
+    font-size: 1.3vw;
+
 }
 .padded{
     padding: 50px 0 50px;
@@ -73,6 +81,7 @@ p{
     font-family: Lil Stuart;
     text-align: center;
     font-size: 36px;
+    font-size: 2.8vw;
     font-weight: 600;
     color: rgb(169, 104, 187);
     background-color: black;
@@ -86,6 +95,7 @@ p{
 }
 #head2{
     font-size: 48px;
+    font-size: 4vw;
     font-family: Recoleta;
     text-align: center;
     padding: 15px 0 15px;
@@ -100,6 +110,7 @@ p{
 }
 #head3{
     font-size: 48px;
+    font-size: 4vw;
     font-family: Recoleta;
     text-align: center;
     padding: 20px 0 20px;
@@ -119,19 +130,26 @@ p{
     font-size: 30px;
     text-align: center;
     color: rgb(178, 130, 191);
+    font-size: 3vw;
 }
 .bi.bi-person-circle{
     color: rgb(178, 130, 191);
     font-size: 30px;
+    font-size: 2.5vw;
 }
 #th1{
     background-color: rgb(178, 130, 191);
     font-family: Lil Stuart;
     font-size: 22px;
     color: brown;
+    font-size: 1.7vw;
 }
 #th2{
     color: brown;
     font-family: Lil Stuart;
     font-size: 22px;
+    font-size: 1.5vw;
+}
+td{
+    font-size: 1.2vw;
 }
